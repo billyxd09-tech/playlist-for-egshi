@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Egshiglen ❤️</title>
+
+  <!-- Romantic Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .listen-btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.9);
+      color: #ff5d8f;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .listen-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+    }
+
+    /* Floating hearts */
+    .heart-float {
+      position: fixed;
+      bottom: -20px;
+      font-size: 20px;
+      opacity: 0.6;
+      animation: floatUp 10s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes floatUp {
+      from { transform: translateY(0); opacity: 0.8; }
+      to { transform: translateY(-110vh); opacity: 0; }
+    }
+
+    .container {
+      margin: 60px auto;
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      padding: 40px 34px;
+      max-width: 460px;
+      width: 92%;
+      box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+      animation: fadeIn 1.4s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 36px;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 24px 0;
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+
+    .song {
+      background: rgba(255,255,255,0.2);
+      border-radius: 20px;
+      padding: 20px;
+      margin-bottom: 22px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      animation: slideUp 0.8s ease forwards;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(25px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .song-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .song-artist {
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-bottom: 10px;
+    }
+
+    .song-note {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .love-letter {
+      margin-top: 36px;
+      padding: 24px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 22px;
+      font-size: 0.95rem;
+      line-height: 1.7;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .hidden-message {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 1rem;
+      opacity: 0;
+      transition: opacity 1.2s ease;
+    }
+
+    .reveal-btn {
+      display: block;
+      margin: 26px auto 0;
+      padding: 10px 22px;
+      border-radius: 999px;
+      border: none;
+      background: #fff;
+      color: #ff5d8f;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating hearts -->
+  <div class="heart-float" style="left:10%; animation-delay:0s">❤</div>
+  <div class="heart-float" style="left:30%; animation-delay:3s">❤</div>
+  <div class="heart-float" style="left:60%; animation-delay:6s">❤</div>
+  <div class="heart-float" style="left:80%; animation-delay:9s">❤</div>
+
+  <div class="container">
+    <h1>For Egshiglen ❤</h1>
+    <div class="subtitle">If I were to turn my feelings into sound, this is how they would feel</div>
+
+    <div class="song">
+      <div class="song-title">Fuck</div>
+      <div class="song-artist">Glaive</div>
+      <div class="song-note">No word in my mother tongue can fully explain what I feel when I’m around you. My heart just knows.</div>
+      <a class="listen-btn" href="https://open.spotify.com/track/4Yob9CFLXglfnDYBWcs8bd?si=683a46e8272240e6" target="_blank">🎧 Listen on Spotify</a>
+    </div>
+
+    <div class="song">
+      <div class="song-title">whiplash</div>
+      <div class="song-artist">2hollis</div>
+      <div class="song-note">You came into my life unexpectedly and changed everything. Loving you feels fast, intense, and right.</div>
+      <a class="listen-btn" href="https://open.spotify.com/track/1qVeiyPNX4KPALXyPpenBd?si=396ed29fb30444aa" target="_blank">🎧 Listen on Spotify</a>
+    </div>
+
+    <div class="song">
+      <div class="song-title">Nerves</div>
+      <div class="song-artist">ear</div>
+      <div class="song-note">If I could turn the moments we spent together into sound, this would be it. Every second, every feeling.</div>
+      <a class="listen-btn" href="https://open.spotify.com/track/6aWR7XlrJ5bveVG5YuIWpW?si=1a5eae1cb8d54c28" target="_blank">🎧 Listen on Spotify</a>
+    </div>
+
+    <div class="divider">✧</div>
+
+    <div class="love-letter">
+      Thank you for the happiest 7 months of my life. You made ordinary days feel special, and silence feel comfortable.
+      I don’t know how you did it, but loving you never felt forced — it felt natural.
+      I don’t know what the future holds, but I know I want you in it. Always.
+    </div>
+
+    <button class="reveal-btn" onclick="document.getElementById('secret').style.opacity = 1">Tap here</button>
+
+    <div class="hidden-message" id="secret">
+      I love you more than words, songs, or silence could ever explain.
+    </div>
+
+    <footer>
+      Made with love, just for you 💗
+    </footer>
+  </div>
+
+</body>
+</html>
